@@ -1,7 +1,7 @@
 public class Uc2 {
   // determines the largest of three Comparable objects
-  public static <T extends Comparable<T>> T maximum(T x, T y, T z) {
-    T max = x; // assume x is initially the largest
+  public static <G extends Comparable<G>> G maximum(G x, G y, G z) {
+    G max = x; // assume x is initially the largest
 
     if (y.compareTo(max) > 0)
       max = y; // y is the largest so far
